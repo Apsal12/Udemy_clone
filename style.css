@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s1 {
+    color: #9f41e8;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border: solid black 0.5px;
+    border-radius: 30px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__s2 input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+
+}
+
+.navbar__s3 {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    background-color: #9f41e8;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.categories p:hover {
+    background-color: white;
+    border-radius: 30px;
+    border: solid black 2px;
+    cursor: pointer;
+}
+
+.saleimage {
+    position: relative;
+    overflow: hidden;
+}
+
+.saleimage img {
+    height: auto;
+    width: 100%;
+
+
+}
+
+.saleimage-offer {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    border: solid black 2px;
+    padding: 20px;
+    border-radius: 20%;
+    max-width: 300px;
+    width: 40%;
+    background-color: white;
+    
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #9f41e8;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.recommended {
+    padding: 10px;
+}
+
+
+.recommended-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.course-card {
+    width: 300px;
+    
+}
+
+.course-card img {
+    height: 200px;
+    width: 100%;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.topics {
+    padding: 10px;
+    margin-top: 30px;
+
+
+}
+
+.topics-container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.topics-container p {
+    border: solid #9f41e8 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    cursor: pointer;
+}
+
+
+.mostpopular {
+    padding: 10px;
+}
+
+
+.mostpopular-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.popular-card {
+    width: 350px;
+    margin-top: 10px;
+    
+
+}
+
+.popular-card img {
+    height: 200px;
+    width: 100%;
+}
+
+.popular-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.footer__one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__one p:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+
+
+.footer__one p {
+    margin: 10px;
+}
+
+.footer__two {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.footer__two p {
+    position: relative;
+    top: 20px;
+}
